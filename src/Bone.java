@@ -22,19 +22,13 @@ public class Bone {
 		
 	}
 
-	public Bone(float ang, float size) { //constructor without parent bone
+	public Bone(float ang, float size) {
 		super();
 		this.parent = null;
 		this.ang = ang;
 		this.size = size;
 	}
 	
-	public Bone(Bone parent, float ang, float size) { //constructor with parent bone
-		super();
-		this.parent = parent;
-		this.ang = ang;
-		this.size = size;
-	}
 
 	public float getAng() {
 		return ang;
