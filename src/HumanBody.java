@@ -11,7 +11,7 @@ public class HumanBody {
 	
 	public HumanBody() {
 	
-		this.baseBone = new Bone(0, 0, 90, Arranges.baseBone);
+		/*this.baseBone = new Bone(0, 0, 90, Arranges.baseBone); //does not work with current bone format
 			this.pelvis = new Bone(this.baseBone, 90, Arranges.pelvis);
 				this.torso = new Bone(this.pelvis, 90, Arranges.torso);
 					this.head = new Bone(this.torso, 90, Arranges.head);
@@ -26,7 +26,7 @@ public class HumanBody {
 				this.leftFoot = new Bone(this.leftLeg, -180, Arranges.foot);
 		this.rightThigh = new Bone(this.baseBone, -60, Arranges.thigh);
 			this.rightLeg = new Bone(this.rightThigh, -80, Arranges.leg);
-				this.rightFoot = new Bone(this.rightLeg, 0, Arranges.foot);		
+				this.rightFoot = new Bone(this.rightLeg, 0, Arranges.foot);	*/	
 			
 	}
 }
